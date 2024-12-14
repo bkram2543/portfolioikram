@@ -1,0 +1,173 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header .logo h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+/* Home section styles */
+#home {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.text h2 {
+    font-size: 2.5rem; /* Increased font size */
+    color: #333;
+}
+
+.text p {
+    font-size: 1.5rem; /* Larger font for the paragraph */
+    color: #666;
+}
+
+/* About section styles */
+#about {
+    text-align: center;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 2.5rem; /* Increased font size */
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.5rem; /* Larger font for better readability */
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Projects section styles */
+#projects {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.project-img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem; /* Increased font size */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.project-link:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Contact section styles */
+#contact {
+    text-align: center;
+    margin: 60px 0; /* Adjusted margin */
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-links {
+    margin-top: 30px; /* Added margin to push the buttons down */
+}
+
+.contact-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 1.4rem; /* Larger button text */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin: 10px 0;
+}
+
+.contact-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
